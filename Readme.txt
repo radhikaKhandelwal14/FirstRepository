@@ -7,3 +7,9 @@ Using git
 	git add and stage file
 	git status and check status
 	
+equest 01
+ As per request 101 from radhika adding the following lines
+	
+
+	git clone is used to clone the project
+	MASTER denotes the master branch

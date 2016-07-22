@@ -8,8 +8,11 @@ Using git
 	git status and check status
 	
 equest 01
- As per request 101 from radhika adding the following lines
+ As per request 101 from radhika adding
 	
 
 	git clone is used to clone the project
 	MASTER denotes the master branch
+
+adding line
+as per request

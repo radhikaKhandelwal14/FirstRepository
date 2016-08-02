@@ -10,7 +10,7 @@ public class ApplicationDonor {
 		Project project1=new Project(101,6788855);
 		
 		DonorImpl d=new DonorImpl();
-		System.out.println("Adding Donor....."+d.addDonor(donor));
+		System.out.println("Adding Donor....."+d.addDonor(donor,project1,65776));
 		d.printDonorList();
 		
 	}

@@ -1,20 +1,34 @@
 package java.training.domains;
 
-import java.training.Ifaces.IDonor;
+import com.training.IFaces.IDonor;
+
 import java.util.List;
+
+import com.training.domains.Donor;
 
 public class DonorImpl implements IDonor {
 
+	private List<Donor> donorList;
 	@Override
 	public boolean addDonor(Donor obj) {
 		// TODO Auto-generated method stub
+		boolean result=false;
+		result=donorList.add(obj);
+		return result;
 		
-		return false;
 	}
 
 	@Override
 	public boolean[] addDonor(Donor... dnrList) {
 		// TODO Auto-generated method stub
+		int size=dnrList.length;
+		boolean result[]=new boolean[size];
+		int i=0;
+		for(Donor donor: dnrList){
+			result[i]=donorList.add(donor);
+			i++;
+		}
+		return result;
 		return null;
 	}
 

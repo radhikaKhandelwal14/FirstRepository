@@ -74,6 +74,11 @@ public ArrayList<Donor> getDonorList() {
 public void setdonorList(ArrayList<Donor> donorList) {
 	this.donorList = donorList;
 }
+@Override
+public String toString() {
+	return "Project [donorList=" + donorList + ", projectCode=" + projectCode + ", projectName=" + projectName
+			+ ", amount=" + amount + ", cost=" + cost + ", pendingAmount=" + pendingAmount + "]";
+}
 
 
 
